@@ -1,0 +1,9 @@
+2024/08/24 23:43:54.830886 User with that login already exists!
+2024/08/24 23:44:42.251979 User with that login already exists!
+2024/09/08 23:39:27.417912 Error in repository(CreateUser):ОШИБКА: ошибка синтаксиса (примерное положение: ",") (SQLSTATE 42601)
+2024/09/08 23:55:49.145002 Error in repository(CreateUser):ОШИБКА: INSERT или UPDATE в таблице "users" нарушает ограничение внешнего ключа "fk_users_role" (SQLSTATE 23503)
+2024/09/27 11:40:29.299136 Error in repository (GetUniById):  record not found
+2024/09/27 11:41:05.993121 Error in repository (GetUniById):  record not found
+2024/09/27 11:54:58.133243 Error in repository (GetUniById):  record not found
+2024/09/27 12:05:47.573592 Error in repository (GetUniById):  record not found
+2024/09/27 12:06:00.564470 Error in repository (GetUniById):  record not found
