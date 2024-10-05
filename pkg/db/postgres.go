@@ -1,20 +1,38 @@
 package db
 
 import (
+	"fmt"
+
 	log "main.go/logger"
 
 	"gorm.io/driver/postgres"
 	"gorm.io/gorm"
 	"gorm.io/gorm/logger"
+	"main.go/internal/app/config"
 	"main.go/internal/models"
-	"main.go/pkg/constants"
 )
 
 var dbInstance *gorm.DB
 
-func StartDatabase() {
+func StartDatabase(cfg config.Config) {
 	var err error
-	dbInstance, err = gorm.Open(postgres.Open(constants.DbCredentials), &gorm.Config{
+
+	conn := fmt.Sprintf(`host=%s 
+									port=%s 
+									user=%s 
+									dbname=%s 
+									password=%s
+									sslmode=%s
+									TimeZone=%s`,
+		cfg.Host,
+		cfg.PortPgres,
+		cfg.User,
+		cfg.Dbname,
+		cfg.Password,
+		cfg.Sslmode,
+		cfg.TimeZone,
+	)
+	dbInstance, err = gorm.Open(postgres.Open(conn), &gorm.Config{
 		Logger: logger.Default.LogMode(logger.Info),
 	})
 	if err != nil {

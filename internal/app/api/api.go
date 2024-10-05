@@ -6,17 +6,18 @@ import (
 	"github.com/gin-gonic/gin"
 	"github.com/sirupsen/logrus"
 	"gorm.io/gorm"
+	"main.go/internal/app/config"
 	"main.go/pkg/db"
 )
 
 type API struct {
-	config   *Config
+	config   *config.Config
 	logger   *logrus.Logger
 	router   *gin.Engine
 	database *gorm.DB
 }
 
-func New(config *Config) *API {
+func New(config *config.Config) *API {
 	api := &API{
 		config: config,
 		logger: logrus.New(),
@@ -27,7 +28,7 @@ func New(config *Config) *API {
 }
 
 func (api *API) openDB() {
-	db.StartDatabase()
+	db.StartDatabase(*api.config)
 	api.database = db.GetDB()
 }
 

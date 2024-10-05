@@ -1,11 +1,13 @@
 package logger
 
 import (
-	"github.com/gin-gonic/gin"
-	"gopkg.in/natefinch/lumberjack.v2"
 	"io"
 	"log"
 	"os"
+
+	"github.com/gin-gonic/gin"
+	"github.com/sirupsen/logrus"
+	"gopkg.in/natefinch/lumberjack.v2"
 )
 
 // SetLogger Установка Logger-а
@@ -27,29 +29,29 @@ const (
 	LogCompress   = true
 )
 
-func Init() error {
+func Init() *logrus.Logger {
 	if _, err := os.Stat("logs"); os.IsNotExist(err) {
 		err = os.Mkdir("logs", 0755)
 		if err != nil {
-			return err
+			return nil
 		}
 	}
 
 	fileInfo, err := os.OpenFile(LogInfo, os.O_APPEND|os.O_CREATE|os.O_WRONLY, 0666)
 	if err != nil {
-		return err
+		return nil
 	}
 	fileError, err := os.OpenFile(LogError, os.O_APPEND|os.O_CREATE|os.O_WRONLY, 0666)
 	if err != nil {
-		return err
+		return nil
 	}
 	fileWarn, err := os.OpenFile(LogWarning, os.O_APPEND|os.O_CREATE|os.O_WRONLY, 0666)
 	if err != nil {
-		return err
+		return nil
 	}
 	fileDebug, err := os.OpenFile(LogDebug, os.O_APPEND|os.O_CREATE|os.O_WRONLY, 0666)
 	if err != nil {
-		return err
+		return nil
 	}
 
 	Info = log.New(fileInfo, "", log.Ldate|log.Lmicroseconds)

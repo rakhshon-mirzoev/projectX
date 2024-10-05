@@ -1802,3 +1802,313 @@
 [GIN-debug] DELETE /api/v1/DeleteSocialScience/:id --> main.go/internal/handlers.DeleteSocialScienById (3 handlers)
 [GIN-debug] GET    /api/v1/GetSocialSciences --> main.go/internal/handlers.GetSocialSciences (3 handlers)
 [GIN-debug] GET    /api/v1/GetSocialScienceById/:id --> main.go/internal/handlers.GetSocialScienById (3 handlers)
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+2024/10/05 21:27:46.698387 DB successfully connected!
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+2024/10/05 21:33:24.880053 DB successfully connected!
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+2024/10/05 21:35:05.528977 DB successfully connected!
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+2024/10/05 21:46:21.162090 &{:8090 localhost 5432 postgres postgres postgres Asia/Shanghai disable}
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+2024/10/05 21:56:16.472088 DB successfully connected!
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+2024/10/05 21:59:37.727819 DB successfully connected!
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+2024/10/05 21:59:46.971744 DB successfully connected!
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+2024/10/05 22:01:54.607171 DB successfully connected!
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+2024/10/05 22:05:00.519346 DB successfully connected!
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+2024/10/05 22:05:41.452530 DB successfully connected!
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+2024/10/05 22:07:13.405158 DB successfully connected!
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+2024/10/05 22:08:08.546177 DB successfully connected!
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+2024/10/05 22:09:09.367631 DB successfully connected!
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+2024/10/05 22:16:04.761313 DB successfully connected!
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+2024/10/05 22:16:53.126696 DB successfully connected!
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+2024/10/05 22:17:52.419805 DB successfully connected!
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+2024/10/05 22:19:13.093353 DB successfully connected!
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+2024/10/05 22:22:49.499127 DB successfully connected!
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+2024/10/05 22:26:19.737400 DB successfully connected!
+[GIN-debug] POST   /Login                    --> main.go/internal/handlers.Login (1 handlers)
+[GIN-debug] POST   /UserRegistration         --> main.go/internal/handlers.CreateUser (1 handlers)
+[GIN-debug] POST   /UniversityRegistration   --> main.go/internal/handlers.CreateUni (1 handlers)
+[GIN-debug] GET    /GetInstitutionList       --> main.go/internal/handlers.GetInstitutionList (1 handlers)
+[GIN-debug] GET    /GetUniversitiesWithCityName --> main.go/internal/handlers.GetUniWithCityName (1 handlers)
+[GIN-debug] POST   /Admin                    --> main.go/internal/handlers.AdminLogin (1 handlers)
+[GIN-debug] POST   /api/v1/CreateUser        --> main.go/internal/handlers.CreateUser (3 handlers)
+[GIN-debug] DELETE /api/v1/DeleteUser/:id    --> main.go/internal/handlers.DeleteUserById (3 handlers)
+[GIN-debug] GET    /api/v1/GetUsers          --> main.go/internal/handlers.GetUsers (3 handlers)
+[GIN-debug] GET    /api/v1/GetUserById/:id   --> main.go/internal/handlers.GetUserById (3 handlers)
+[GIN-debug] POST   /api/v1/CreateSchool      --> main.go/internal/handlers.CreateSchool (3 handlers)
+[GIN-debug] GET    /api/v1/GetSchools        --> main.go/internal/handlers.GetSchools (3 handlers)
+[GIN-debug] GET    /api/v1/GetSchoolById/:id --> main.go/internal/handlers.GetSchoolById (3 handlers)
+[GIN-debug] DELETE /api/v1/DeleteSchool/:id  --> main.go/internal/handlers.DeleteSchoolById (3 handlers)
+[GIN-debug] POST   /api/v1/CreateUniversity  --> main.go/internal/handlers.CreateUni (3 handlers)
+[GIN-debug] DELETE /api/v1/DeleteUniversity/:id --> main.go/internal/handlers.DeleteUniById (3 handlers)
+[GIN-debug] GET    /api/v1/GetUniversities   --> main.go/internal/handlers.GetUnis (3 handlers)
+[GIN-debug] GET    /api/v1/GetUniversityById/:id --> main.go/internal/handlers.GetUniById (3 handlers)
+[GIN-debug] GET    /api/v1/GetUniExactSubs/:id --> main.go/internal/handlers.GetUniExactSubs (3 handlers)
+[GIN-debug] GET    /api/v1/GetUniHumanSubs/:id --> main.go/internal/handlers.GetUniHumanSubs (3 handlers)
+[GIN-debug] GET    /api/v1/GetUniTechSubs/:id --> main.go/internal/handlers.GetUniTechSubs (3 handlers)
+[GIN-debug] GET    /api/v1/GetUniSocialSubs/:id --> main.go/internal/handlers.GetUniSocialSubs (3 handlers)
+[GIN-debug] PUT    /api/v1/ChangeUniversity/:id --> main.go/internal/handlers.ChangeUniversity (3 handlers)
+[GIN-debug] POST   /api/v1/CreateCity        --> main.go/internal/handlers.CreateCity (3 handlers)
+[GIN-debug] DELETE /api/v1/DeleteCity/:id    --> main.go/internal/handlers.DeleteCityById (3 handlers)
+[GIN-debug] GET    /api/v1/GetCities         --> main.go/internal/handlers.GetCities (3 handlers)
+[GIN-debug] GET    /api/v1/GetCityById/:id   --> main.go/internal/handlers.GetCityById (3 handlers)
+[GIN-debug] POST   /api/v1/CreateExactScience --> main.go/internal/handlers.CreateExactScien (3 handlers)
+[GIN-debug] DELETE /api/v1/DeleteExactScience/:id --> main.go/internal/handlers.DeleteExactScienById (3 handlers)
+[GIN-debug] GET    /api/v1/GetExactSciences  --> main.go/internal/handlers.GetExactSciences (3 handlers)
+[GIN-debug] GET    /api/v1/GetExactScienceById/:id --> main.go/internal/handlers.GetExactScienById (3 handlers)
+[GIN-debug] POST   /api/v1/CreateHumanScience --> main.go/internal/handlers.CreateHumanScien (3 handlers)
+[GIN-debug] DELETE /api/v1/DeleteHumanScience/:id --> main.go/internal/handlers.DeleteHumanScienById (3 handlers)
+[GIN-debug] GET    /api/v1/GetHumanSciences  --> main.go/internal/handlers.GetHumanSciences (3 handlers)
+[GIN-debug] GET    /api/v1/GetHumanScienceById/:id --> main.go/internal/handlers.GetHumanScienById (3 handlers)
+[GIN-debug] POST   /api/v1/CreateTechScience --> main.go/internal/handlers.CreateTechScien (3 handlers)
+[GIN-debug] DELETE /api/v1/DeleteTechScience/:id --> main.go/internal/handlers.DeleteTechScienById (3 handlers)
+[GIN-debug] GET    /api/v1/GetTechSciences   --> main.go/internal/handlers.GetTechSciences (3 handlers)
+[GIN-debug] GET    /api/v1/GetTechScienceById/:id --> main.go/internal/handlers.GetTechScienById (3 handlers)
+[GIN-debug] POST   /api/v1/CreateSocialScience --> main.go/internal/handlers.CreateSocialScien (3 handlers)
+[GIN-debug] DELETE /api/v1/DeleteSocialScience/:id --> main.go/internal/handlers.DeleteSocialScienById (3 handlers)
+[GIN-debug] GET    /api/v1/GetSocialSciences --> main.go/internal/handlers.GetSocialSciences (3 handlers)
+[GIN-debug] GET    /api/v1/GetSocialScienceById/:id --> main.go/internal/handlers.GetSocialScienById (3 handlers)
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+2024/10/05 22:29:59.115187 DB successfully connected!
+[GIN-debug] POST   /Login                    --> main.go/internal/handlers.Login (1 handlers)
+[GIN-debug] POST   /UserRegistration         --> main.go/internal/handlers.CreateUser (1 handlers)
+[GIN-debug] POST   /UniversityRegistration   --> main.go/internal/handlers.CreateUni (1 handlers)
+[GIN-debug] GET    /GetInstitutionList       --> main.go/internal/handlers.GetInstitutionList (1 handlers)
+[GIN-debug] GET    /GetUniversitiesWithCityName --> main.go/internal/handlers.GetUniWithCityName (1 handlers)
+[GIN-debug] POST   /Admin                    --> main.go/internal/handlers.AdminLogin (1 handlers)
+[GIN-debug] POST   /api/v1/CreateUser        --> main.go/internal/handlers.CreateUser (3 handlers)
+[GIN-debug] DELETE /api/v1/DeleteUser/:id    --> main.go/internal/handlers.DeleteUserById (3 handlers)
+[GIN-debug] GET    /api/v1/GetUsers          --> main.go/internal/handlers.GetUsers (3 handlers)
+[GIN-debug] GET    /api/v1/GetUserById/:id   --> main.go/internal/handlers.GetUserById (3 handlers)
+[GIN-debug] POST   /api/v1/CreateSchool      --> main.go/internal/handlers.CreateSchool (3 handlers)
+[GIN-debug] GET    /api/v1/GetSchools        --> main.go/internal/handlers.GetSchools (3 handlers)
+[GIN-debug] GET    /api/v1/GetSchoolById/:id --> main.go/internal/handlers.GetSchoolById (3 handlers)
+[GIN-debug] DELETE /api/v1/DeleteSchool/:id  --> main.go/internal/handlers.DeleteSchoolById (3 handlers)
+[GIN-debug] POST   /api/v1/CreateUniversity  --> main.go/internal/handlers.CreateUni (3 handlers)
+[GIN-debug] DELETE /api/v1/DeleteUniversity/:id --> main.go/internal/handlers.DeleteUniById (3 handlers)
+[GIN-debug] GET    /api/v1/GetUniversities   --> main.go/internal/handlers.GetUnis (3 handlers)
+[GIN-debug] GET    /api/v1/GetUniversityById/:id --> main.go/internal/handlers.GetUniById (3 handlers)
+[GIN-debug] GET    /api/v1/GetUniExactSubs/:id --> main.go/internal/handlers.GetUniExactSubs (3 handlers)
+[GIN-debug] GET    /api/v1/GetUniHumanSubs/:id --> main.go/internal/handlers.GetUniHumanSubs (3 handlers)
+[GIN-debug] GET    /api/v1/GetUniTechSubs/:id --> main.go/internal/handlers.GetUniTechSubs (3 handlers)
+[GIN-debug] GET    /api/v1/GetUniSocialSubs/:id --> main.go/internal/handlers.GetUniSocialSubs (3 handlers)
+[GIN-debug] PUT    /api/v1/ChangeUniversity/:id --> main.go/internal/handlers.ChangeUniversity (3 handlers)
+[GIN-debug] POST   /api/v1/CreateCity        --> main.go/internal/handlers.CreateCity (3 handlers)
+[GIN-debug] DELETE /api/v1/DeleteCity/:id    --> main.go/internal/handlers.DeleteCityById (3 handlers)
+[GIN-debug] GET    /api/v1/GetCities         --> main.go/internal/handlers.GetCities (3 handlers)
+[GIN-debug] GET    /api/v1/GetCityById/:id   --> main.go/internal/handlers.GetCityById (3 handlers)
+[GIN-debug] POST   /api/v1/CreateExactScience --> main.go/internal/handlers.CreateExactScien (3 handlers)
+[GIN-debug] DELETE /api/v1/DeleteExactScience/:id --> main.go/internal/handlers.DeleteExactScienById (3 handlers)
+[GIN-debug] GET    /api/v1/GetExactSciences  --> main.go/internal/handlers.GetExactSciences (3 handlers)
+[GIN-debug] GET    /api/v1/GetExactScienceById/:id --> main.go/internal/handlers.GetExactScienById (3 handlers)
+[GIN-debug] POST   /api/v1/CreateHumanScience --> main.go/internal/handlers.CreateHumanScien (3 handlers)
+[GIN-debug] DELETE /api/v1/DeleteHumanScience/:id --> main.go/internal/handlers.DeleteHumanScienById (3 handlers)
+[GIN-debug] GET    /api/v1/GetHumanSciences  --> main.go/internal/handlers.GetHumanSciences (3 handlers)
+[GIN-debug] GET    /api/v1/GetHumanScienceById/:id --> main.go/internal/handlers.GetHumanScienById (3 handlers)
+[GIN-debug] POST   /api/v1/CreateTechScience --> main.go/internal/handlers.CreateTechScien (3 handlers)
+[GIN-debug] DELETE /api/v1/DeleteTechScience/:id --> main.go/internal/handlers.DeleteTechScienById (3 handlers)
+[GIN-debug] GET    /api/v1/GetTechSciences   --> main.go/internal/handlers.GetTechSciences (3 handlers)
+[GIN-debug] GET    /api/v1/GetTechScienceById/:id --> main.go/internal/handlers.GetTechScienById (3 handlers)
+[GIN-debug] POST   /api/v1/CreateSocialScience --> main.go/internal/handlers.CreateSocialScien (3 handlers)
+[GIN-debug] DELETE /api/v1/DeleteSocialScience/:id --> main.go/internal/handlers.DeleteSocialScienById (3 handlers)
+[GIN-debug] GET    /api/v1/GetSocialSciences --> main.go/internal/handlers.GetSocialSciences (3 handlers)
+[GIN-debug] GET    /api/v1/GetSocialScienceById/:id --> main.go/internal/handlers.GetSocialScienById (3 handlers)
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+2024/10/06 02:40:58.806625 DB successfully connected!
+[GIN-debug] POST   /Login                    --> main.go/internal/handlers.Login (1 handlers)
+[GIN-debug] POST   /UserRegistration         --> main.go/internal/handlers.CreateUser (1 handlers)
+[GIN-debug] POST   /UniversityRegistration   --> main.go/internal/handlers.CreateUni (1 handlers)
+[GIN-debug] GET    /GetInstitutionList       --> main.go/internal/handlers.GetInstitutionList (1 handlers)
+[GIN-debug] GET    /GetUniversitiesWithCityName --> main.go/internal/handlers.GetUniWithCityName (1 handlers)
+[GIN-debug] POST   /Admin                    --> main.go/internal/handlers.AdminLogin (1 handlers)
+[GIN-debug] POST   /api/v1/CreateUser        --> main.go/internal/handlers.CreateUser (3 handlers)
+[GIN-debug] DELETE /api/v1/DeleteUser/:id    --> main.go/internal/handlers.DeleteUserById (3 handlers)
+[GIN-debug] GET    /api/v1/GetUsers          --> main.go/internal/handlers.GetUsers (3 handlers)
+[GIN-debug] GET    /api/v1/GetUserById/:id   --> main.go/internal/handlers.GetUserById (3 handlers)
+[GIN-debug] POST   /api/v1/CreateSchool      --> main.go/internal/handlers.CreateSchool (3 handlers)
+[GIN-debug] GET    /api/v1/GetSchools        --> main.go/internal/handlers.GetSchools (3 handlers)
+[GIN-debug] GET    /api/v1/GetSchoolById/:id --> main.go/internal/handlers.GetSchoolById (3 handlers)
+[GIN-debug] DELETE /api/v1/DeleteSchool/:id  --> main.go/internal/handlers.DeleteSchoolById (3 handlers)
+[GIN-debug] POST   /api/v1/CreateUniversity  --> main.go/internal/handlers.CreateUni (3 handlers)
+[GIN-debug] DELETE /api/v1/DeleteUniversity/:id --> main.go/internal/handlers.DeleteUniById (3 handlers)
+[GIN-debug] GET    /api/v1/GetUniversities   --> main.go/internal/handlers.GetUnis (3 handlers)
+[GIN-debug] GET    /api/v1/GetUniversityById/:id --> main.go/internal/handlers.GetUniById (3 handlers)
+[GIN-debug] GET    /api/v1/GetUniExactSubs/:id --> main.go/internal/handlers.GetUniExactSubs (3 handlers)
+[GIN-debug] GET    /api/v1/GetUniHumanSubs/:id --> main.go/internal/handlers.GetUniHumanSubs (3 handlers)
+[GIN-debug] GET    /api/v1/GetUniTechSubs/:id --> main.go/internal/handlers.GetUniTechSubs (3 handlers)
+[GIN-debug] GET    /api/v1/GetUniSocialSubs/:id --> main.go/internal/handlers.GetUniSocialSubs (3 handlers)
+[GIN-debug] PUT    /api/v1/ChangeUniversity/:id --> main.go/internal/handlers.ChangeUniversity (3 handlers)
+[GIN-debug] POST   /api/v1/CreateCity        --> main.go/internal/handlers.CreateCity (3 handlers)
+[GIN-debug] DELETE /api/v1/DeleteCity/:id    --> main.go/internal/handlers.DeleteCityById (3 handlers)
+[GIN-debug] GET    /api/v1/GetCities         --> main.go/internal/handlers.GetCities (3 handlers)
+[GIN-debug] GET    /api/v1/GetCityById/:id   --> main.go/internal/handlers.GetCityById (3 handlers)
+[GIN-debug] POST   /api/v1/CreateExactScience --> main.go/internal/handlers.CreateExactScien (3 handlers)
+[GIN-debug] DELETE /api/v1/DeleteExactScience/:id --> main.go/internal/handlers.DeleteExactScienById (3 handlers)
+[GIN-debug] GET    /api/v1/GetExactSciences  --> main.go/internal/handlers.GetExactSciences (3 handlers)
+[GIN-debug] GET    /api/v1/GetExactScienceById/:id --> main.go/internal/handlers.GetExactScienById (3 handlers)
+[GIN-debug] POST   /api/v1/CreateHumanScience --> main.go/internal/handlers.CreateHumanScien (3 handlers)
+[GIN-debug] DELETE /api/v1/DeleteHumanScience/:id --> main.go/internal/handlers.DeleteHumanScienById (3 handlers)
+[GIN-debug] GET    /api/v1/GetHumanSciences  --> main.go/internal/handlers.GetHumanSciences (3 handlers)
+[GIN-debug] GET    /api/v1/GetHumanScienceById/:id --> main.go/internal/handlers.GetHumanScienById (3 handlers)
+[GIN-debug] POST   /api/v1/CreateTechScience --> main.go/internal/handlers.CreateTechScien (3 handlers)
+[GIN-debug] DELETE /api/v1/DeleteTechScience/:id --> main.go/internal/handlers.DeleteTechScienById (3 handlers)
+[GIN-debug] GET    /api/v1/GetTechSciences   --> main.go/internal/handlers.GetTechSciences (3 handlers)
+[GIN-debug] GET    /api/v1/GetTechScienceById/:id --> main.go/internal/handlers.GetTechScienById (3 handlers)
+[GIN-debug] POST   /api/v1/CreateSocialScience --> main.go/internal/handlers.CreateSocialScien (3 handlers)
+[GIN-debug] DELETE /api/v1/DeleteSocialScience/:id --> main.go/internal/handlers.DeleteSocialScienById (3 handlers)
+[GIN-debug] GET    /api/v1/GetSocialSciences --> main.go/internal/handlers.GetSocialSciences (3 handlers)
+[GIN-debug] GET    /api/v1/GetSocialScienceById/:id --> main.go/internal/handlers.GetSocialScienById (3 handlers)
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+2024/10/06 02:41:47.227350 DB successfully connected!
+[GIN-debug] POST   /Login                    --> main.go/internal/handlers.Login (1 handlers)
+[GIN-debug] POST   /UserRegistration         --> main.go/internal/handlers.CreateUser (1 handlers)
+[GIN-debug] POST   /UniversityRegistration   --> main.go/internal/handlers.CreateUni (1 handlers)
+[GIN-debug] GET    /GetInstitutionList       --> main.go/internal/handlers.GetInstitutionList (1 handlers)
+[GIN-debug] GET    /GetUniversitiesWithCityName --> main.go/internal/handlers.GetUniWithCityName (1 handlers)
+[GIN-debug] POST   /Admin                    --> main.go/internal/handlers.AdminLogin (1 handlers)
+[GIN-debug] POST   /api/v1/CreateUser        --> main.go/internal/handlers.CreateUser (3 handlers)
+[GIN-debug] DELETE /api/v1/DeleteUser/:id    --> main.go/internal/handlers.DeleteUserById (3 handlers)
+[GIN-debug] GET    /api/v1/GetUsers          --> main.go/internal/handlers.GetUsers (3 handlers)
+[GIN-debug] GET    /api/v1/GetUserById/:id   --> main.go/internal/handlers.GetUserById (3 handlers)
+[GIN-debug] POST   /api/v1/CreateSchool      --> main.go/internal/handlers.CreateSchool (3 handlers)
+[GIN-debug] GET    /api/v1/GetSchools        --> main.go/internal/handlers.GetSchools (3 handlers)
+[GIN-debug] GET    /api/v1/GetSchoolById/:id --> main.go/internal/handlers.GetSchoolById (3 handlers)
+[GIN-debug] DELETE /api/v1/DeleteSchool/:id  --> main.go/internal/handlers.DeleteSchoolById (3 handlers)
+[GIN-debug] POST   /api/v1/CreateUniversity  --> main.go/internal/handlers.CreateUni (3 handlers)
+[GIN-debug] DELETE /api/v1/DeleteUniversity/:id --> main.go/internal/handlers.DeleteUniById (3 handlers)
+[GIN-debug] GET    /api/v1/GetUniversities   --> main.go/internal/handlers.GetUnis (3 handlers)
+[GIN-debug] GET    /api/v1/GetUniversityById/:id --> main.go/internal/handlers.GetUniById (3 handlers)
+[GIN-debug] GET    /api/v1/GetUniExactSubs/:id --> main.go/internal/handlers.GetUniExactSubs (3 handlers)
+[GIN-debug] GET    /api/v1/GetUniHumanSubs/:id --> main.go/internal/handlers.GetUniHumanSubs (3 handlers)
+[GIN-debug] GET    /api/v1/GetUniTechSubs/:id --> main.go/internal/handlers.GetUniTechSubs (3 handlers)
+[GIN-debug] GET    /api/v1/GetUniSocialSubs/:id --> main.go/internal/handlers.GetUniSocialSubs (3 handlers)
+[GIN-debug] PUT    /api/v1/ChangeUniversity/:id --> main.go/internal/handlers.ChangeUniversity (3 handlers)
+[GIN-debug] POST   /api/v1/CreateCity        --> main.go/internal/handlers.CreateCity (3 handlers)
+[GIN-debug] DELETE /api/v1/DeleteCity/:id    --> main.go/internal/handlers.DeleteCityById (3 handlers)
+[GIN-debug] GET    /api/v1/GetCities         --> main.go/internal/handlers.GetCities (3 handlers)
+[GIN-debug] GET    /api/v1/GetCityById/:id   --> main.go/internal/handlers.GetCityById (3 handlers)
+[GIN-debug] POST   /api/v1/CreateExactScience --> main.go/internal/handlers.CreateExactScien (3 handlers)
+[GIN-debug] DELETE /api/v1/DeleteExactScience/:id --> main.go/internal/handlers.DeleteExactScienById (3 handlers)
+[GIN-debug] GET    /api/v1/GetExactSciences  --> main.go/internal/handlers.GetExactSciences (3 handlers)
+[GIN-debug] GET    /api/v1/GetExactScienceById/:id --> main.go/internal/handlers.GetExactScienById (3 handlers)
+[GIN-debug] POST   /api/v1/CreateHumanScience --> main.go/internal/handlers.CreateHumanScien (3 handlers)
+[GIN-debug] DELETE /api/v1/DeleteHumanScience/:id --> main.go/internal/handlers.DeleteHumanScienById (3 handlers)
+[GIN-debug] GET    /api/v1/GetHumanSciences  --> main.go/internal/handlers.GetHumanSciences (3 handlers)
+[GIN-debug] GET    /api/v1/GetHumanScienceById/:id --> main.go/internal/handlers.GetHumanScienById (3 handlers)
+[GIN-debug] POST   /api/v1/CreateTechScience --> main.go/internal/handlers.CreateTechScien (3 handlers)
+[GIN-debug] DELETE /api/v1/DeleteTechScience/:id --> main.go/internal/handlers.DeleteTechScienById (3 handlers)
+[GIN-debug] GET    /api/v1/GetTechSciences   --> main.go/internal/handlers.GetTechSciences (3 handlers)
+[GIN-debug] GET    /api/v1/GetTechScienceById/:id --> main.go/internal/handlers.GetTechScienById (3 handlers)
+[GIN-debug] POST   /api/v1/CreateSocialScience --> main.go/internal/handlers.CreateSocialScien (3 handlers)
+[GIN-debug] DELETE /api/v1/DeleteSocialScience/:id --> main.go/internal/handlers.DeleteSocialScienById (3 handlers)
+[GIN-debug] GET    /api/v1/GetSocialSciences --> main.go/internal/handlers.GetSocialSciences (3 handlers)
+[GIN-debug] GET    /api/v1/GetSocialScienceById/:id --> main.go/internal/handlers.GetSocialScienById (3 handlers)

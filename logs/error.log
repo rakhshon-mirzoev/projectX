@@ -7,3 +7,11 @@
 2024/09/27 11:54:58.133243 Error in repository (GetUniById):  record not found
 2024/09/27 12:05:47.573592 Error in repository (GetUniById):  record not found
 2024/09/27 12:06:00.564470 Error in repository (GetUniById):  record not found
+2024/10/05 21:15:52.845715 db.setupPostgresProduction err: failed to connect to `host=port= user=dbname= database=`: hostname resolving error (lookup port=: no such host)
+2024/10/05 21:38:16.011684 db.setupPostgresProduction err: failed to connect to `host=port= user=dbname= database=`: hostname resolving error (lookup port=: no such host)
+2024/10/05 21:39:20.507894 db.setupPostgresProduction err: failed to connect to `host=port= user=dbname= database=`: hostname resolving error (lookup port=: no such host)
+2024/10/05 21:40:40.373275 db.setupPostgresProduction err: failed to connect to `host=port= user=dbname= database=`: hostname resolving error (lookup port=: no such host)
+2024/10/05 21:45:54.398618 db.setupPostgresProduction err: failed to connect to `host=port= user=dbname= database=`: hostname resolving error (lookup port=: no such host)
+2024/10/05 21:46:21.170240 db.setupPostgresProduction err: failed to connect to `host=port= user=dbname= database=`: hostname resolving error (lookup port=: no such host)
+2024/10/05 21:53:15.180560 db.setupPostgresProduction err: failed to connect to `host=port= user=dbname= database=`: hostname resolving error (lookup port=: no such host)
+2024/10/06 02:39:29.492256 db.setupPostgresProduction err: failed to connect to `host=port= user=dbname= database=`: hostname resolving error (lookup port=: no such host)

@@ -5,6 +5,7 @@ import (
 
 	"github.com/BurntSushi/toml"
 	"main.go/internal/app/api"
+	app "main.go/internal/app/config"
 	"main.go/logger"
 )
 
@@ -23,7 +24,7 @@ func main() {
 
 	flag.Parse()
 
-	config := api.NewConfig()
+	config := app.NewConfig()
 	_, err := toml.DecodeFile(configPathToml, config)
 	if err != nil {
 		logger.Warn.Println("Using default values of configs.", err)
