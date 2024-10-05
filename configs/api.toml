@@ -1,4 +1,1 @@
 port = ":8080"
-debug_level = "debug"
-info_level = "info"
-error_level = "error"
