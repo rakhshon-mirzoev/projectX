@@ -23,8 +23,6 @@ func main() {
 
 	flag.Parse()
 
-	logger.Info.Println("We started!")
-
 	config := api.NewConfig()
 	_, err := toml.DecodeFile(configPathToml, config)
 	if err != nil {
@@ -34,4 +32,6 @@ func main() {
 	server := api.New(config)
 
 	logger.Error.Fatal(server.Start())
+
+	logger.Info.Println("We started!", config.Port)
 }
