@@ -43,7 +43,7 @@ type UniversityUpdateFilter struct {
 }
 
 type UniversityWithCityName struct {
-	Id   int64  `json:"id"`
+	Id   int64  `json:""`
 	Name string `json:"name"`
 	City string `json:"city"`
 }

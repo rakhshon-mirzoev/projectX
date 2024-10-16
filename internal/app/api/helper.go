@@ -1,6 +1,7 @@
 package api
 
 import (
+	"net/http"
 	"time"
 
 	"github.com/gin-contrib/cors"
@@ -30,9 +31,11 @@ func (a *API) configureRouterField() {
 	a.router.POST("/Login", handlers.Login)
 	a.router.POST("/UserRegistration", handlers.CreateUser)
 	a.router.POST("/UniversityRegistration", handlers.CreateUni)
+	a.router.POST("/SchoolRegistration", handlers.CreateSchool)
 	a.router.GET("/GetInstitutionList", handlers.GetInstitutionList)
 	a.router.GET("/GetUniversitiesWithCityName", handlers.GetUniWithCityName)
 	a.router.POST("/Admin", handlers.AdminLogin)
+	a.router.GET("/ping", PingPong)
 	//Closed endpoints
 	cl := a.router.Group(constants.ApiPrefix)
 	cl.Use(handlers.JwtAuthMiddleware(), corsMiddleWare)
@@ -106,6 +109,13 @@ func (a *API) configureRouterField() {
 			cl.GET("/GetSocialScienceById/:id", handlers.GetSocialScienById)
 		}
 	}
+}
+
+func PingPong(c *gin.Context) {
+	c.JSON(http.StatusOK, gin.H{
+		"message": "pong",
+	})
+
 }
 
 func CorsMiddleWare() gin.HandlerFunc {

@@ -1,6 +1,7 @@
 package service
 
 import (
+	"gorm.io/gorm"
 	"main.go/internal/models"
 	"main.go/internal/repository"
 	log "main.go/logger"
@@ -12,10 +13,11 @@ func CreateUser(user *models.User) error {
 		if err.Error() == "user exists" {
 			log.Warn.Println("User with that login already exists!")
 			return err
-		} else if err.Error() == "record not found" {
-			return nil
+		} else if err == gorm.ErrRecordNotFound {
+			log.Error.Println("Not found in(CreateUser):", err)
+			return gorm.ErrRecordNotFound
 		} else {
-			log.Error.Fatal("Error in repository(CreateUser):", err)
+			log.Error.Println("Error in repository(CreateUser):", err)
 			return err
 		}
 	} else {

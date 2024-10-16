@@ -14,9 +14,11 @@ type User struct {
 	Password  string     `json:"password" gorm:"column:password"`
 	RoleId    int64      `json:"role" gorm:"column:role_id"`
 	Role      Role       `json:"-" gorm:"foreignkey:RoleId"`
-	CityId    int64      `json:"city" gorm:"column:city_id"`
+	CityName  string     `json:"city" gorm:"-"`
+	CityId    int64      `json:"-" gorm:"column:city_id"`
 	City      City       `json:"-" gorm:"foreignkey:CityId"`
 	UserType  string     `json:"user_type" gorm:"column:user_type"`
+	Active    bool       `json:"active" gorm:"column:active"`
 }
 
 func (u *User) TableName() string {

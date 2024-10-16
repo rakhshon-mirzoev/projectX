@@ -16,8 +16,8 @@ func CreateSchool(school *models.School) (err error) {
 	if existing {
 		return errors.New("school exists")
 	}
-	sqlReq := `INSERT INTO school(name, type, language, address, freelaunch, main_disc, transport, edonish, private, amount, shift) VALUES(?,?,?,?,?,?,?,?,?,?,?)`
-	err = db.GetDB().Exec(sqlReq, school.Name, school.Type, school.Language, school.Address, school.FreeLaunch, school.MainDisc, school.Transport, school.EDonish, school.Private, school.Amount, school.Shift).Error
+	sqlReq := `INSERT INTO school(name, type, language, address, freelaunch, transport, edonish, private, amount, shift) VALUES(?,?,?,?,?,?,?,?,?,?)`
+	err = db.GetDB().Exec(sqlReq, school.Name, school.Type, school.Language, school.Address, school.FreeLaunch, school.Transport, school.EDonish, school.Private, school.Amount, school.Shift).Error
 	if err != nil {
 		return err
 	}

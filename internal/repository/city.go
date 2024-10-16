@@ -69,3 +69,12 @@ func cityExists(name string) (bool, error) {
 	}
 	return true, nil
 }
+
+func FindCityId(name string) (id int64, err error) {
+	var city models.City
+	err = db.GetDB().Table("city").Where("name = ?", name).Find(&city).Error
+	if err != nil {
+		return 0, err
+	}
+	return city.Id, nil
+}

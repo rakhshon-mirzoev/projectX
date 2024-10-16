@@ -28,6 +28,9 @@ func CreateUser(c *gin.Context) {
 		if err.Error() == "user exists" {
 			c.JSON(http.StatusBadRequest, "User with that login already exists")
 			return
+		} else if err == gorm.ErrRecordNotFound {
+			c.JSON(http.StatusNotFound, "Wrong param in Your request!")
+			return
 		} else {
 			c.JSON(http.StatusInternalServerError, "Internal server error")
 			return

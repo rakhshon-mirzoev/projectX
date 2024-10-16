@@ -9,6 +9,13 @@ import (
 )
 
 func CreateUser(user *models.User) error {
+	var cityId int64
+	cityId, err := FindCityId(user.CityName)
+	if err != nil {
+		return translateError(err)
+	} else if cityId == 0 {
+		return gorm.ErrRecordNotFound
+	}
 	existing, err := userExists(user.Login)
 	if err != nil {
 		return err
@@ -17,26 +24,27 @@ func CreateUser(user *models.User) error {
 		return errors.New("user exists")
 	}
 	if user.UserType == "Студент/Студентка" {
+
 		sqlReq := `INSERT INTO users(name, phone, age, city_id, login, password, role_id) VALUES(?,?,?,?,?,?,4)`
-		err = db.GetDB().Exec(sqlReq, user.Name, user.Phone, user.Age, user.CityId, user.Login, user.Password).Error
+		err = db.GetDB().Exec(sqlReq, user.Name, user.Phone, user.Age, cityId, user.Login, user.Password).Error
 		if err != nil {
 			return err
 		}
 	} else if user.UserType == "Школьник/Школьница" {
 		sqlReq := `INSERT INTO users(name, phone, age, city_id, login, password, role_id) VALUES(?,?,?,?,?,?,5)`
-		err = db.GetDB().Exec(sqlReq, user.Name, user.Phone, user.Age, user.CityId, user.Login, user.Password).Error
+		err = db.GetDB().Exec(sqlReq, user.Name, user.Phone, user.Age, cityId, user.Login, user.Password).Error
 		if err != nil {
 			return err
 		}
 	} else if user.UserType == "Родитель" {
 		sqlReq := `INSERT INTO users(name, phone, age, city_id, login, password, role_id) VALUES(?,?,?,?,?,?,8)`
-		err = db.GetDB().Exec(sqlReq, user.Name, user.Phone, user.Age, user.CityId, user.Login, user.Password).Error
+		err = db.GetDB().Exec(sqlReq, user.Name, user.Phone, user.Age, cityId, user.Login, user.Password).Error
 		if err != nil {
 			return err
 		}
 	} else {
 		sqlReq := `INSERT INTO users(name, phone, age, city_id, login, password, role_id) VALUES(?,?,?,?,?,?,?)`
-		err = db.GetDB().Exec(sqlReq, user.Name, user.Phone, user.Age, user.CityId, user.Login, user.Password, user.RoleId).Error
+		err = db.GetDB().Exec(sqlReq, user.Name, user.Phone, user.Age, cityId, user.Login, user.Password, user.RoleId).Error
 		if err != nil {
 			return err
 		}

@@ -15,3 +15,19 @@
 2024/10/05 21:46:21.170240 db.setupPostgresProduction err: failed to connect to `host=port= user=dbname= database=`: hostname resolving error (lookup port=: no such host)
 2024/10/05 21:53:15.180560 db.setupPostgresProduction err: failed to connect to `host=port= user=dbname= database=`: hostname resolving error (lookup port=: no such host)
 2024/10/06 02:39:29.492256 db.setupPostgresProduction err: failed to connect to `host=port= user=dbname= database=`: hostname resolving error (lookup port=: no such host)
+2024/10/14 20:47:59.602118 Error in repository(CreateUser):unsupported data type: 0xc000008228: Table not set, please set it like: db.Model(&user) or db.Table("users")
+2024/10/14 20:48:12.014356 Error in repository(CreateUser):unsupported data type: 0xc0004a89d8: Table not set, please set it like: db.Model(&user) or db.Table("users")
+2024/10/14 20:49:12.113182 Error in repository(CreateUser):sql: expected 2 destination arguments in Scan, not 1
+2024/10/14 20:50:01.449751 Error in repository(CreateUser):sql: expected 2 destination arguments in Scan, not 1
+2024/10/14 20:50:17.690364 Error in repository(CreateUser):ОШИБКА: INSERT или UPDATE в таблице "users" нарушает ограничение внешнего ключа "fk_users_role" (SQLSTATE 23503)
+2024/10/14 20:51:55.984457 Error in repository(CreateUser):ОШИБКА: INSERT или UPDATE в таблице "users" нарушает ограничение внешнего ключа "fk_users_city" (SQLSTATE 23503)
+2024/10/14 20:53:22.967614 Error in repository(CreateUser):ОШИБКА: INSERT или UPDATE в таблице "users" нарушает ограничение внешнего ключа "fk_users_city" (SQLSTATE 23503)
+2024/10/14 20:56:10.324939 Error in repository(CreateUser):ОШИБКА: INSERT или UPDATE в таблице "users" нарушает ограничение внешнего ключа "fk_users_role" (SQLSTATE 23503)
+2024/10/14 20:57:19.655178 Error in repository(CreateUser): ОШИБКА: INSERT или UPDATE в таблице "users" нарушает ограничение внешнего ключа "fk_users_role" (SQLSTATE 23503)
+2024/10/14 20:57:25.735239 Error in repository(CreateUser): ОШИБКА: INSERT или UPDATE в таблице "users" нарушает ограничение внешнего ключа "fk_users_city" (SQLSTATE 23503)
+2024/10/14 21:02:29.778027 Error in repository(CreateUser): ОШИБКА: INSERT или UPDATE в таблице "users" нарушает ограничение внешнего ключа "fk_users_role" (SQLSTATE 23503)
+2024/10/14 21:02:35.862493 Error in repository(CreateUser): ОШИБКА: INSERT или UPDATE в таблице "users" нарушает ограничение внешнего ключа "fk_users_city" (SQLSTATE 23503)
+2024/10/14 21:02:45.471031 Error in repository(CreateUser): ОШИБКА: INSERT или UPDATE в таблице "users" нарушает ограничение внешнего ключа "fk_users_role" (SQLSTATE 23503)
+2024/10/14 21:04:37.973986 Error in repository(CreateUser): ОШИБКА: INSERT или UPDATE в таблице "users" нарушает ограничение внешнего ключа "fk_users_city" (SQLSTATE 23503)
+2024/10/14 21:05:49.043830 Not found in(CreateUser): record not found
+2024/10/14 21:06:38.563791 Not found in(CreateUser): record not found

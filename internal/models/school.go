@@ -7,7 +7,6 @@ type School struct {
 	Language       string `json:"language" gorm:"column:language"`
 	Address        string `json:"address" gorm:"column:address"`
 	FreeLaunch     bool   `json:"freeLaunch" gorm:"column:freelaunch"`
-	MainDisc       string `json:"mainDisc" gorm:"main_disc"`
 	Transport      bool   `json:"transport" grom:"column:transport"`
 	EDonish        bool   `json:"eDonish" gorm:"column:edonish"`
 	Private        bool   `json:"private" gorm:"column:private"`
