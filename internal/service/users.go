@@ -29,7 +29,7 @@ func CreateUser(user *models.User) error {
 func DeleteUserById(userId int64) error {
 	err := repository.DeleteUserById(userId)
 	if err != nil {
-		log.Error.Fatal("Error in repository (DeleteUserById):", err)
+		log.Error.Println("Error in repository (DeleteUserById):", err)
 		return err
 	}
 	return nil

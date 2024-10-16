@@ -109,6 +109,33 @@ func (a *API) configureRouterField() {
 			cl.GET("/GetSocialScienceById/:id", handlers.GetSocialScienById)
 		}
 	}
+	{
+		admin := cl.Group(constants.AdminPrefix, handlers.CheckUserAuthentication)
+		{
+			del := admin.Group("/delete")
+			{
+				del.DELETE("/DeleteUser/:id", handlers.DeleteUserById)
+				del.DELETE("/DeleteSchool/:id", handlers.DeleteSchoolById)
+				del.DELETE("/DeleteUniversity/:id", handlers.DeleteUniById)
+				del.DELETE("/DeleteCity/:id", handlers.DeleteCityById)
+				del.DELETE("/DeleteExactScience/:id", handlers.DeleteExactScienById)
+				del.DELETE("/DeleteHumanScience/:id", handlers.DeleteHumanScienById)
+				del.DELETE("/DeleteTechScience/:id", handlers.DeleteTechScienById)
+				del.DELETE("/DeleteSocialScience/:id", handlers.DeleteSocialScienById)
+			}
+			create := admin.Group("/create")
+			{
+				create.POST("/CreateUser", handlers.CreateUser)
+				create.POST("/CreateSchool", handlers.CreateSchool)
+				create.POST("/CreateUniversity", handlers.CreateUni)
+				create.POST("/CreateCity", handlers.CreateCity)
+				create.POST("/CreateExactScience", handlers.CreateExactScien)
+				create.POST("/CreateHumanScience", handlers.CreateHumanScien)
+				create.POST("/CreateTechScience", handlers.CreateTechScien)
+			}
+
+		}
+	}
 }
 
 func PingPong(c *gin.Context) {

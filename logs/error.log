@@ -31,3 +31,13 @@
 2024/10/14 21:04:37.973986 Error in repository(CreateUser): ОШИБКА: INSERT или UPDATE в таблице "users" нарушает ограничение внешнего ключа "fk_users_city" (SQLSTATE 23503)
 2024/10/14 21:05:49.043830 Not found in(CreateUser): record not found
 2024/10/14 21:06:38.563791 Not found in(CreateUser): record not found
+2024/10/16 22:07:06.695239 Error in repository (DeleteUserById):record not found
+2024/10/16 22:08:07.654606 Error in repository (DeleteUserById): record not found
+2024/10/16 22:08:22.577304 Error in repository (DeleteUserById): record not found
+2024/10/16 22:08:32.890865 Error in repository (DeleteUserById): record not found
+2024/10/16 22:33:55.486738 Error in repository (DeleteUserById): record not found
+2024/10/16 22:34:11.633989 Error in repository (DeleteUserById): record not found
+2024/10/16 22:35:18.246497 Error in repository (DeleteUserById): record not found
+2024/10/16 22:35:51.718906 Error in repository (DeleteUserById): record not found
+2024/10/16 23:03:45.256718 Error in repository (DeleteUserById): record not found
+2024/10/16 23:08:50.277945 Error in repository (DeleteUserById): record not found

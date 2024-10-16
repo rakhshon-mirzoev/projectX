@@ -55,14 +55,11 @@ func CreateUser(user *models.User) error {
 func DeleteUserById(userId int64) error {
 	var u *models.User
 	if err := db.GetDB().First(&u, userId).Error; err != nil {
-		if err == gorm.ErrRecordNotFound {
-			return gorm.ErrRecordNotFound
-		}
-		return err
+		return translateError(err)
 	}
 	err := db.GetDB().Delete(&u, userId).Error
 	if err != nil {
-		return err
+		return translateError(err)
 	}
 	return nil
 }
